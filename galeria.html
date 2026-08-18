@@ -2,25 +2,88 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Galería</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Mi Página Web</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
-    <h1>Galería</h1>
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>Mi Página Web</h1>
 
-    <p>En esta sección se muestran algunos ejemplos de nuestro trabajo.</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="galeria.html">Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Proyecto 1</h2>
-    <p>Página web informativa.</p>
+    <main>
 
-    <h2>Proyecto 2</h2>
-    <p>Sitio web para una empresa.</p>
+        <section class="principal">
+            <div class="contenedor">
 
-    <h2>Proyecto 3</h2>
-    <p>Página web personal.</p>
+                <div class="texto-principal">
+                    <p class="subtitulo">NUESTROS PROYECTOS</p>
 
-    <a href="index.html">Volver al inicio</a>
+                    <h2>Galería de trabajos</h2>
+
+                    <p>
+                        En esta sección se pueden presentar diferentes proyectos,
+                        trabajos y ejemplos desarrollados.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="seccion">
+
+            <div class="contenedor">
+
+                <h2 class="titulo-seccion">Proyectos destacados</h2>
+
+                <div class="galeria">
+
+                    <div class="imagen-galeria">
+                        <img src="imagenes/proyecto1.jpg" alt="Proyecto web 1">
+                        <h3>Proyecto web 1</h3>
+                        <p>Diseño de una página web informativa.</p>
+                    </div>
+
+                    <div class="imagen-galeria">
+                        <img src="imagenes/proyecto2.jpg" alt="Proyecto web 2">
+                        <h3>Proyecto web 2</h3>
+                        <p>Desarrollo de un sitio web para una empresa.</p>
+                    </div>
+
+                    <div class="imagen-galeria">
+                        <img src="imagenes/proyecto3.jpg" alt="Proyecto web 3">
+                        <h3>Proyecto web 3</h3>
+                        <p>Diseño de una página web personal.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="pie">
+
+        <div class="contenedor">
+            <p>Mi Página Web</p>
+            <p>Proyecto académico de desarrollo web</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>

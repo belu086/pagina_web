@@ -2,23 +2,130 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi página web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
-    <h1>Bienvenidos a mi página web</h1>
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>Mi Página Web</h1>
 
-    <p>Esta es la primera versión de mi proyecto.</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="galeria.html">Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Menú</h2>
+    <main>
 
-    <a href="nosotros.html">Nosotros</a>
-    <br>
-    <a href="contacto.html">Contacto</a>
-    <br>
-    <a href="servicios.html">Servicios</a>
-    <br>
-    <a href="galeria.html">Galería</a>
+        <section class="principal">
+            <div class="contenedor">
+                <div class="contenido-principal">
+
+                    <div class="texto-principal">
+                        <p class="subtitulo">BIENVENIDOS</p>
+
+                        <h2>Un espacio creado para presentar nuestro trabajo</h2>
+
+                        <p>
+                            En este sitio web podrás conocer información sobre
+                            nuestro proyecto, los servicios disponibles y algunos
+                            ejemplos de nuestro trabajo.
+                        </p>
+
+                        <div class="botones">
+                            <a href="nosotros.html" class="boton">Conocer más</a>
+                            <a href="contacto.html" class="boton boton-secundario">Contacto</a>
+                        </div>
+                    </div>
+
+                    <div class="imagen-principal">
+                        <img src="imagenes/imagen-principal.jpg" alt="Imagen principal del proyecto">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="seccion">
+            <div class="contenedor">
+
+                <h2 class="titulo-seccion">Nuestros servicios</h2>
+
+                <div class="tarjetas">
+
+                    <div class="tarjeta">
+                        <h3>Diseño web</h3>
+                        <p>
+                            Diseño de páginas web con una estructura clara,
+                            organizada y adaptable.
+                        </p>
+                        <a href="servicios.html">Ver información</a>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>Desarrollo</h3>
+                        <p>
+                            Creación de sitios web utilizando tecnologías
+                            fundamentales para el desarrollo.
+                        </p>
+                        <a href="servicios.html">Ver información</a>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>Presentación</h3>
+                        <p>
+                            Organización de contenido para presentar información
+                            de forma sencilla y profesional.
+                        </p>
+                        <a href="servicios.html">Ver información</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="seccion seccion-destacada">
+            <div class="contenedor">
+
+                <h2>Conoce nuestro trabajo</h2>
+
+                <p>
+                    Visita nuestra galería para conocer algunos de los proyectos
+                    y trabajos realizados.
+                </p>
+
+                <a href="galeria.html" class="boton">Ver galería</a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="pie">
+
+        <div class="contenedor">
+
+            <p>Mi Página Web</p>
+
+            <p>
+                Proyecto académico de desarrollo web
+            </p>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
